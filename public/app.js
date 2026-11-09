@@ -627,37 +627,36 @@ observer.observe(document.getElementById("archiv"));
 observer.observe(document.getElementById("retro"));
 
 async function loadPackMenu() {
-  // Kurz warten, bis render() das HTML erzeugt hat
-  await new Promise(resolve => setTimeout(resolve, 50));
+  // Mehrere Versuche, falls das Element noch nicht da ist
+  for (let i = 0; i < 10; i++) {
+    const menu = document.getElementById('pack-menu');
+    if (menu) {
+      try {
+        const res = await fetch('/api/packs');
+        const packs = await res.json();
 
-  const menu = document.getElementById('pack-menu');
-  if (!menu) {
-    console.warn('pack-menu Element nicht gefunden');
-    return;
-  }
-
-  try {
-    const res = await fetch('/api/packs');
-    if (!res.ok) throw new Error('API Fehler');
-    
-    const packs = await res.json();
-    console.log('Geladene Packs:', packs); // zum Debuggen
-
-    if (!packs.length) {
-      menu.innerHTML = `<p style="padding:1rem;color:var(--muted);font-size:0.85rem;">Keine Packs verfügbar</p>`;
-      return;
-    }
+        if (!packs.length) {
+          menu.innerHTML = `<p style="padding:1rem;color:var(--muted);font-size:0.85rem;">Keine Packs verfügbar</p>`;
+          return;
+        }
 
         menu.innerHTML = packs.map(p => `
-    <button type="button" class="pack-btn" data-pack="${p.id}">
-        ${p.name}
-        ${p.description ? `<span>${p.description}</span>` : ''}
-    </button>
-    `).join('');
-  } catch (err) {
-    console.error('Fehler beim Laden der Packs:', err);
-    menu.innerHTML = `<p style="padding:1rem;color:#ff6b6b;font-size:0.85rem;">Fehler beim Laden</p>`;
+          <button type="button" class="pack-btn" data-pack="${p.id}">
+            ${p.name}
+            ${p.description ? `<span>${p.description}</span>` : ''}
+          </button>
+        `).join('');
+        return; // erfolgreich → aufhören
+      } catch (err) {
+        console.error('Fehler beim Laden der Packs:', err);
+        menu.innerHTML = `<p style="padding:1rem;color:#ff6b6b;font-size:0.85rem;">Fehler beim Laden</p>`;
+        return;
+      }
+    }
+    // Element noch nicht da → kurz warten und nochmal versuchen
+    await new Promise(resolve => setTimeout(resolve, 100));
   }
+  console.warn('pack-menu Element wurde nicht gefunden');
 }
 
 
