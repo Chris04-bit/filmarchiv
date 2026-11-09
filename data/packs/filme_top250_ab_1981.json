@@ -1,0 +1,1252 @@
+[
+  {
+    "title": "The Shawshank Redemption",
+    "genre": "Drama",
+    "duration": "2h 22m"
+  },
+  {
+    "title": "The Dark Knight",
+    "genre": "Action",
+    "duration": "2h 32m"
+  },
+  {
+    "title": "The Lord of the Rings: The Return of the King",
+    "genre": "Fantasy",
+    "duration": "3h 21m"
+  },
+  {
+    "title": "Schindler's List",
+    "genre": "Drama",
+    "duration": "3h 15m"
+  },
+  {
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "genre": "Fantasy",
+    "duration": "2h 58m"
+  },
+  {
+    "title": "Pulp Fiction",
+    "genre": "Thriller",
+    "duration": "2h 34m"
+  },
+  {
+    "title": "The Lord of the Rings: The Two Towers",
+    "genre": "Fantasy",
+    "duration": "2h 59m"
+  },
+  {
+    "title": "Forrest Gump",
+    "genre": "Drama",
+    "duration": "2h 22m"
+  },
+  {
+    "title": "Inception",
+    "genre": "Science Fiction",
+    "duration": "2h 28m"
+  },
+  {
+    "title": "Fight Club",
+    "genre": "Drama",
+    "duration": "2h 19m"
+  },
+  {
+    "title": "The Matrix",
+    "genre": "Science Fiction",
+    "duration": "2h 16m"
+  },
+  {
+    "title": "Interstellar",
+    "genre": "Science Fiction",
+    "duration": "2h 49m"
+  },
+  {
+    "title": "GoodFellas",
+    "genre": "Drama",
+    "duration": "2h 25m"
+  },
+  {
+    "title": "Se7en",
+    "genre": "Thriller",
+    "duration": "2h 07m"
+  },
+  {
+    "title": "The Silence of the Lambs",
+    "genre": "Thriller",
+    "duration": "1h 58m"
+  },
+  {
+    "title": "Saving Private Ryan",
+    "genre": "Krieg",
+    "duration": "2h 49m"
+  },
+  {
+    "title": "The Green Mile",
+    "genre": "Drama",
+    "duration": "3h 09m"
+  },
+  {
+    "title": "City of God",
+    "genre": "Drama",
+    "duration": "2h 10m"
+  },
+  {
+    "title": "Life Is Beautiful",
+    "genre": "Comedy",
+    "duration": "1h 56m"
+  },
+  {
+    "title": "Terminator 2: Judgment Day",
+    "genre": "Action",
+    "duration": "2h 17m"
+  },
+  {
+    "title": "Back to the Future",
+    "genre": "Science Fiction",
+    "duration": "1h 56m"
+  },
+  {
+    "title": "Spirited Away",
+    "genre": "Animiert",
+    "duration": "2h 05m"
+  },
+  {
+    "title": "Gladiator",
+    "genre": "Action",
+    "duration": "2h 35m"
+  },
+  {
+    "title": "The Pianist",
+    "genre": "Drama",
+    "duration": "2h 30m"
+  },
+  {
+    "title": "Kill Bill: The Whole Bloody Affair",
+    "genre": "Action",
+    "duration": "4h 41m"
+  },
+  {
+    "title": "Parasite",
+    "genre": "Thriller",
+    "duration": "2h 12m"
+  },
+  {
+    "title": "Grave of the Fireflies",
+    "genre": "Animiert",
+    "duration": "1h 29m"
+  },
+  {
+    "title": "The Lion King",
+    "genre": "Animiert",
+    "duration": "1h 28m"
+  },
+  {
+    "title": "The Departed",
+    "genre": "Thriller",
+    "duration": "2h 31m"
+  },
+  {
+    "title": "Whiplash",
+    "genre": "Drama",
+    "duration": "1h 46m"
+  },
+  {
+    "title": "The Prestige",
+    "genre": "Thriller",
+    "duration": "2h 10m"
+  },
+  {
+    "title": "American History X",
+    "genre": "Drama",
+    "duration": "1h 59m"
+  },
+  {
+    "title": "Spider-Man: Across the Spider-Verse",
+    "genre": "Animiert",
+    "duration": "2h 20m"
+  },
+  {
+    "title": "Cinema Paradiso",
+    "genre": "Drama",
+    "duration": "2h 04m"
+  },
+  {
+    "title": "Léon: The Professional",
+    "genre": "Action",
+    "duration": "1h 50m"
+  },
+  {
+    "title": "The Intouchables",
+    "genre": "Comedy",
+    "duration": "1h 52m"
+  },
+  {
+    "title": "The Usual Suspects",
+    "genre": "Thriller",
+    "duration": "1h 46m"
+  },
+  {
+    "title": "Django Unchained",
+    "genre": "Action",
+    "duration": "2h 45m"
+  },
+  {
+    "title": "WALL·E",
+    "genre": "Animiert",
+    "duration": "1h 38m"
+  },
+  {
+    "title": "Memento",
+    "genre": "Thriller",
+    "duration": "1h 53m"
+  },
+  {
+    "title": "Avengers: Infinity War",
+    "genre": "Action",
+    "duration": "2h 29m"
+  },
+  {
+    "title": "Dune: Part Two",
+    "genre": "Science Fiction",
+    "duration": "2h 46m"
+  },
+  {
+    "title": "Raiders of the Lost Ark",
+    "genre": "Abenteuer",
+    "duration": "1h 55m"
+  },
+  {
+    "title": "Spider-Man: Into the Spider-Verse",
+    "genre": "Animiert",
+    "duration": "1h 57m"
+  },
+  {
+    "title": "The Lives of Others",
+    "genre": "Thriller",
+    "duration": "2h 17m"
+  },
+  {
+    "title": "The Odyssey",
+    "genre": "Abenteuer",
+    "duration": "2h 52m"
+  },
+  {
+    "title": "Inglourious Basterds",
+    "genre": "Krieg",
+    "duration": "2h 33m"
+  },
+  {
+    "title": "Aliens",
+    "genre": "Science Fiction",
+    "duration": "2h 17m"
+  },
+  {
+    "title": "12th Fail",
+    "genre": "Drama",
+    "duration": "2h 27m"
+  },
+  {
+    "title": "Avengers: Endgame",
+    "genre": "Action",
+    "duration": "3h 01m"
+  },
+  {
+    "title": "Good Will Hunting",
+    "genre": "Drama",
+    "duration": "2h 06m"
+  },
+  {
+    "title": "Coco",
+    "genre": "Animiert",
+    "duration": "1h 45m"
+  },
+  {
+    "title": "Toy Story",
+    "genre": "Animiert",
+    "duration": "1h 21m"
+  },
+  {
+    "title": "The Dark Knight Rises",
+    "genre": "Action",
+    "duration": "2h 44m"
+  },
+  {
+    "title": "Amadeus",
+    "genre": "Drama",
+    "duration": "2h 40m"
+  },
+  {
+    "title": "Your Name.",
+    "genre": "Animiert",
+    "duration": "1h 46m"
+  },
+  {
+    "title": "3 Idiots",
+    "genre": "Comedy",
+    "duration": "2h 50m"
+  },
+  {
+    "title": "Braveheart",
+    "genre": "Drama",
+    "duration": "2h 58m"
+  },
+  {
+    "title": "Das Boot",
+    "genre": "Krieg",
+    "duration": "2h 29m"
+  },
+  {
+    "title": "Princess Mononoke",
+    "genre": "Animiert",
+    "duration": "2h 14m"
+  },
+  {
+    "title": "Oldboy",
+    "genre": "Thriller",
+    "duration": "2h 00m"
+  },
+  {
+    "title": "American Beauty",
+    "genre": "Drama",
+    "duration": "2h 02m"
+  },
+  {
+    "title": "Capernaum",
+    "genre": "Drama",
+    "duration": "2h 06m"
+  },
+  {
+    "title": "Attack on Titan: The Last Attack",
+    "genre": "Animiert",
+    "duration": "2h 25m"
+  },
+  {
+    "title": "Once Upon a Time in America",
+    "genre": "Drama",
+    "duration": "3h 49m"
+  },
+  {
+    "title": "Joker",
+    "genre": "Drama",
+    "duration": "2h 02m"
+  },
+  {
+    "title": "Toy Story 3",
+    "genre": "Animiert",
+    "duration": "1h 43m"
+  },
+  {
+    "title": "Star Wars: Episode VI - Return of the Jedi",
+    "genre": "Science Fiction",
+    "duration": "2h 11m"
+  },
+  {
+    "title": "Come and See",
+    "genre": "Krieg",
+    "duration": "2h 22m"
+  },
+  {
+    "title": "Requiem for a Dream",
+    "genre": "Drama",
+    "duration": "1h 42m"
+  },
+  {
+    "title": "Incendies",
+    "genre": "Drama",
+    "duration": "2h 11m"
+  },
+  {
+    "title": "The Hunt",
+    "genre": "Drama",
+    "duration": "1h 55m"
+  },
+  {
+    "title": "Eternal Sunshine of the Spotless Mind",
+    "genre": "Romance",
+    "duration": "1h 48m"
+  },
+  {
+    "title": "Heat",
+    "genre": "Action",
+    "duration": "2h 50m"
+  },
+  {
+    "title": "Scarface",
+    "genre": "Drama",
+    "duration": "2h 50m"
+  },
+  {
+    "title": "Up",
+    "genre": "Animiert",
+    "duration": "1h 36m"
+  },
+  {
+    "title": "Reservoir Dogs",
+    "genre": "Thriller",
+    "duration": "1h 39m"
+  },
+  {
+    "title": "Like Stars on Earth",
+    "genre": "Drama",
+    "duration": "2h 42m"
+  },
+  {
+    "title": "Full Metal Jacket",
+    "genre": "Krieg",
+    "duration": "1h 56m"
+  },
+  {
+    "title": "A Separation",
+    "genre": "Drama",
+    "duration": "2h 03m"
+  },
+  {
+    "title": "I Swear",
+    "genre": "Drama",
+    "duration": "2h 00m"
+  },
+  {
+    "title": "Die Hard",
+    "genre": "Action",
+    "duration": "2h 12m"
+  },
+  {
+    "title": "Amélie",
+    "genre": "Comedy",
+    "duration": "2h 02m"
+  },
+  {
+    "title": "Indiana Jones and the Last Crusade",
+    "genre": "Abenteuer",
+    "duration": "2h 07m"
+  },
+  {
+    "title": "The Truman Show",
+    "genre": "Drama",
+    "duration": "1h 43m"
+  },
+  {
+    "title": "The Wolf of Wall Street",
+    "genre": "Comedy",
+    "duration": "3h 00m"
+  },
+  {
+    "title": "1917",
+    "genre": "Krieg",
+    "duration": "1h 59m"
+  },
+  {
+    "title": "Snatch",
+    "genre": "Comedy",
+    "duration": "1h 42m"
+  },
+  {
+    "title": "Shutter Island",
+    "genre": "Thriller",
+    "duration": "2h 18m"
+  },
+  {
+    "title": "Downfall",
+    "genre": "Drama",
+    "duration": "2h 36m"
+  },
+  {
+    "title": "L.A. Confidential",
+    "genre": "Thriller",
+    "duration": "2h 18m"
+  },
+  {
+    "title": "Green Book",
+    "genre": "Comedy",
+    "duration": "2h 10m"
+  },
+  {
+    "title": "Dangal",
+    "genre": "Drama",
+    "duration": "2h 41m"
+  },
+  {
+    "title": "Jurassic Park",
+    "genre": "Science Fiction",
+    "duration": "2h 07m"
+  },
+  {
+    "title": "Batman Begins",
+    "genre": "Action",
+    "duration": "2h 20m"
+  },
+  {
+    "title": "Oppenheimer",
+    "genre": "Drama",
+    "duration": "3h 00m"
+  },
+  {
+    "title": "Hamilton",
+    "genre": "Drama",
+    "duration": "2h 40m"
+  },
+  {
+    "title": "There Will Be Blood",
+    "genre": "Drama",
+    "duration": "2h 38m"
+  },
+  {
+    "title": "The Father",
+    "genre": "Drama",
+    "duration": "1h 37m"
+  },
+  {
+    "title": "The Sixth Sense",
+    "genre": "Thriller",
+    "duration": "1h 47m"
+  },
+  {
+    "title": "Ran",
+    "genre": "Action",
+    "duration": "2h 42m"
+  },
+  {
+    "title": "The Thing",
+    "genre": "Science Fiction",
+    "duration": "1h 49m"
+  },
+  {
+    "title": "Casino",
+    "genre": "Drama",
+    "duration": "2h 58m"
+  },
+  {
+    "title": "No Country for Old Men",
+    "genre": "Thriller",
+    "duration": "2h 02m"
+  },
+  {
+    "title": "Prisoners",
+    "genre": "Thriller",
+    "duration": "2h 33m"
+  },
+  {
+    "title": "Top Gun: Maverick",
+    "genre": "Action",
+    "duration": "2h 10m"
+  },
+  {
+    "title": "Kill Bill: Vol. 1",
+    "genre": "Action",
+    "duration": "1h 51m"
+  },
+  {
+    "title": "Pan's Labyrinth",
+    "genre": "Fantasy",
+    "duration": "1h 58m"
+  },
+  {
+    "title": "Unforgiven",
+    "genre": "Drama",
+    "duration": "2h 10m"
+  },
+  {
+    "title": "A Beautiful Mind",
+    "genre": "Drama",
+    "duration": "2h 15m"
+  },
+  {
+    "title": "Howl's Moving Castle",
+    "genre": "Animiert",
+    "duration": "1h 59m"
+  },
+  {
+    "title": "Finding Nemo",
+    "genre": "Animiert",
+    "duration": "1h 40m"
+  },
+  {
+    "title": "Klaus",
+    "genre": "Animiert",
+    "duration": "1h 36m"
+  },
+  {
+    "title": "Project Hail Mary",
+    "genre": "Science Fiction",
+    "duration": "2h 36m"
+  },
+  {
+    "title": "Demon Slayer: Kimetsu no Yaiba Infinity Castle",
+    "genre": "Animiert",
+    "duration": "2h 35m"
+  },
+  {
+    "title": "The Secret in Their Eyes",
+    "genre": "Thriller",
+    "duration": "2h 09m"
+  },
+  {
+    "title": "Lock, Stock and Two Smoking Barrels",
+    "genre": "Comedy",
+    "duration": "1h 47m"
+  },
+  {
+    "title": "Catch Me If You Can",
+    "genre": "Comedy",
+    "duration": "2h 21m"
+  },
+  {
+    "title": "V for Vendetta",
+    "genre": "Action",
+    "duration": "2h 12m"
+  },
+  {
+    "title": "Dead Poets Society",
+    "genre": "Drama",
+    "duration": "2h 08m"
+  },
+  {
+    "title": "Inside Out",
+    "genre": "Animiert",
+    "duration": "1h 35m"
+  },
+  {
+    "title": "The Best of Youth",
+    "genre": "Drama",
+    "duration": "6h 40m"
+  },
+  {
+    "title": "Trainspotting",
+    "genre": "Drama",
+    "duration": "1h 33m"
+  },
+  {
+    "title": "Harry Potter and the Deathly Hallows: Part 2",
+    "genre": "Fantasy",
+    "duration": "2h 10m"
+  },
+  {
+    "title": "Three Billboards Outside Ebbing, Missouri",
+    "genre": "Drama",
+    "duration": "1h 55m"
+  },
+  {
+    "title": "The Wild Robot",
+    "genre": "Animiert",
+    "duration": "1h 42m"
+  },
+  {
+    "title": "Hacksaw Ridge",
+    "genre": "Krieg",
+    "duration": "2h 19m"
+  },
+  {
+    "title": "Warrior",
+    "genre": "Drama",
+    "duration": "2h 20m"
+  },
+  {
+    "title": "Ratatouille",
+    "genre": "Animiert",
+    "duration": "1h 51m"
+  },
+  {
+    "title": "Mad Max: Fury Road",
+    "genre": "Action",
+    "duration": "2h 00m"
+  },
+  {
+    "title": "Million Dollar Baby",
+    "genre": "Drama",
+    "duration": "2h 12m"
+  },
+  {
+    "title": "Fargo",
+    "genre": "Thriller",
+    "duration": "1h 38m"
+  },
+  {
+    "title": "Children of Heaven",
+    "genre": "Drama",
+    "duration": "1h 29m"
+  },
+  {
+    "title": "My Neighbor Totoro",
+    "genre": "Animiert",
+    "duration": "1h 26m"
+  },
+  {
+    "title": "Gran Torino",
+    "genre": "Drama",
+    "duration": "1h 56m"
+  },
+  {
+    "title": "12 Years a Slave",
+    "genre": "Drama",
+    "duration": "2h 14m"
+  },
+  {
+    "title": "How to Train Your Dragon",
+    "genre": "Animiert",
+    "duration": "1h 38m"
+  },
+  {
+    "title": "Memories of Murder",
+    "genre": "Thriller",
+    "duration": "2h 11m"
+  },
+  {
+    "title": "The Grand Budapest Hotel",
+    "genre": "Comedy",
+    "duration": "1h 39m"
+  },
+  {
+    "title": "Before Sunrise",
+    "genre": "Romance",
+    "duration": "1h 41m"
+  },
+  {
+    "title": "Monsters, Inc.",
+    "genre": "Animiert",
+    "duration": "1h 32m"
+  },
+  {
+    "title": "Blade Runner",
+    "genre": "Science Fiction",
+    "duration": "1h 57m"
+  },
+  {
+    "title": "Gone Girl",
+    "genre": "Thriller",
+    "duration": "2h 29m"
+  },
+  {
+    "title": "Ford v Ferrari",
+    "genre": "Drama",
+    "duration": "2h 32m"
+  },
+  {
+    "title": "In the Name of the Father",
+    "genre": "Drama",
+    "duration": "2h 13m"
+  },
+  {
+    "title": "Chainsaw Man - The Movie: Reze Arc",
+    "genre": "Animiert",
+    "duration": "1h 40m"
+  },
+  {
+    "title": "Spider-Man: No Way Home",
+    "genre": "Action",
+    "duration": "2h 28m"
+  },
+  {
+    "title": "Wild Tales",
+    "genre": "Comedy",
+    "duration": "2h 02m"
+  },
+  {
+    "title": "A Silent Voice: The Movie",
+    "genre": "Animiert",
+    "duration": "2h 10m"
+  },
+  {
+    "title": "Mary and Max",
+    "genre": "Animiert",
+    "duration": "1h 32m"
+  },
+  {
+    "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+    "genre": "Abenteuer",
+    "duration": "2h 23m"
+  },
+  {
+    "title": "Logan",
+    "genre": "Action",
+    "duration": "2h 17m"
+  },
+  {
+    "title": "Maharaja",
+    "genre": "Thriller",
+    "duration": "2h 21m"
+  },
+  {
+    "title": "La Haine",
+    "genre": "Drama",
+    "duration": "1h 38m"
+  },
+  {
+    "title": "Spotlight",
+    "genre": "Drama",
+    "duration": "2h 09m"
+  },
+  {
+    "title": "Jai Bhim",
+    "genre": "Drama",
+    "duration": "2h 44m"
+  },
+  {
+    "title": "The Terminator",
+    "genre": "Action",
+    "duration": "1h 47m"
+  },
+  {
+    "title": "The Big Lebowski",
+    "genre": "Comedy",
+    "duration": "1h 57m"
+  },
+  {
+    "title": "The Incredibles",
+    "genre": "Animiert",
+    "duration": "1h 55m"
+  },
+  {
+    "title": "Hachi: A Dog's Tale",
+    "genre": "Drama",
+    "duration": "1h 33m"
+  },
+  {
+    "title": "Before Sunset",
+    "genre": "Romance",
+    "duration": "1h 20m"
+  },
+  {
+    "title": "The Iron Giant",
+    "genre": "Animiert",
+    "duration": "1h 26m"
+  },
+  {
+    "title": "Room",
+    "genre": "Drama",
+    "duration": "1h 58m"
+  },
+  {
+    "title": "Hotel Rwanda",
+    "genre": "Drama",
+    "duration": "2h 01m"
+  },
+  {
+    "title": "Platoon",
+    "genre": "Krieg",
+    "duration": "2h 00m"
+  },
+  {
+    "title": "Rush",
+    "genre": "Drama",
+    "duration": "2h 03m"
+  },
+  {
+    "title": "Stand by Me",
+    "genre": "Drama",
+    "duration": "1h 29m"
+  },
+  {
+    "title": "My Father and My Son",
+    "genre": "Drama",
+    "duration": "1h 52m"
+  },
+  {
+    "title": "Drishyam",
+    "genre": "Thriller",
+    "duration": "2h 43m"
+  },
+  {
+    "title": "Gangs of Wasseypur",
+    "genre": "Action",
+    "duration": "5h 21m"
+  },
+  {
+    "title": "Miracle in Cell No. 7",
+    "genre": "Drama",
+    "duration": "2h 12m"
+  },
+  {
+    "title": "The Social Network",
+    "genre": "Drama",
+    "duration": "2h 00m"
+  },
+  {
+    "title": "Arrival",
+    "genre": "Science Fiction",
+    "duration": "1h 56m"
+  },
+  {
+    "title": "La La Land",
+    "genre": "Romance",
+    "duration": "2h 08m"
+  },
+  {
+    "title": "The Revenant",
+    "genre": "Drama",
+    "duration": "2h 36m"
+  },
+  {
+    "title": "The Imitation Game",
+    "genre": "Drama",
+    "duration": "1h 54m"
+  },
+  {
+    "title": "The Big Short",
+    "genre": "Drama",
+    "duration": "2h 10m"
+  },
+  {
+    "title": "The Perks of Being a Wallflower",
+    "genre": "Drama",
+    "duration": "1h 43m"
+  },
+  {
+    "title": "The King's Speech",
+    "genre": "Drama",
+    "duration": "1h 58m"
+  },
+  {
+    "title": "500 Days of Summer",
+    "genre": "Romance",
+    "duration": "1h 35m"
+  },
+  {
+    "title": "Donnie Darko",
+    "genre": "Science Fiction",
+    "duration": "1h 53m"
+  },
+  {
+    "title": "The Butterfly Effect",
+    "genre": "Science Fiction",
+    "duration": "1h 53m"
+  },
+  {
+    "title": "The Curious Case of Benjamin Button",
+    "genre": "Drama",
+    "duration": "2h 46m"
+  },
+  {
+    "title": "The Secret Life of Walter Mitty",
+    "genre": "Slice of Life",
+    "duration": "1h 54m"
+  },
+  {
+    "title": "The Pursuit of Happyness",
+    "genre": "Drama",
+    "duration": "1h 57m"
+  },
+  {
+    "title": "Slumdog Millionaire",
+    "genre": "Drama",
+    "duration": "2h 00m"
+  },
+  {
+    "title": "The Boy in the Striped Pajamas",
+    "genre": "Krieg",
+    "duration": "1h 34m"
+  },
+  {
+    "title": "The Avengers",
+    "genre": "Action",
+    "duration": "2h 23m"
+  },
+  {
+    "title": "Iron Man",
+    "genre": "Action",
+    "duration": "2h 06m"
+  },
+  {
+    "title": "Guardians of the Galaxy",
+    "genre": "Action",
+    "duration": "2h 01m"
+  },
+  {
+    "title": "Black Panther",
+    "genre": "Action",
+    "duration": "2h 14m"
+  },
+  {
+    "title": "Captain America: The Winter Soldier",
+    "genre": "Action",
+    "duration": "2h 16m"
+  },
+  {
+    "title": "Avengers: Age of Ultron",
+    "genre": "Action",
+    "duration": "2h 21m"
+  },
+  {
+    "title": "The Batman",
+    "genre": "Thriller",
+    "duration": "2h 56m"
+  },
+  {
+    "title": "Edge of Tomorrow",
+    "genre": "Science Fiction",
+    "duration": "1h 53m"
+  },
+  {
+    "title": "District 9",
+    "genre": "Science Fiction",
+    "duration": "1h 52m"
+  },
+  {
+    "title": "Ex Machina",
+    "genre": "Science Fiction",
+    "duration": "1h 48m"
+  },
+  {
+    "title": "Blade Runner 2049",
+    "genre": "Science Fiction",
+    "duration": "2h 44m"
+  },
+  {
+    "title": "Her",
+    "genre": "Science Fiction",
+    "duration": "2h 06m"
+  },
+  {
+    "title": "The Martian",
+    "genre": "Science Fiction",
+    "duration": "2h 24m"
+  },
+  {
+    "title": "Gravity",
+    "genre": "Science Fiction",
+    "duration": "1h 31m"
+  },
+  {
+    "title": "Children of Men",
+    "genre": "Science Fiction",
+    "duration": "1h 49m"
+  },
+  {
+    "title": "The Bourne Identity",
+    "genre": "Action",
+    "duration": "1h 59m"
+  },
+  {
+    "title": "The Bourne Supremacy",
+    "genre": "Action",
+    "duration": "1h 48m"
+  },
+  {
+    "title": "Skyfall",
+    "genre": "Action",
+    "duration": "2h 23m"
+  },
+  {
+    "title": "Casino Royale",
+    "genre": "Action",
+    "duration": "2h 24m"
+  },
+  {
+    "title": "Mission: Impossible - Fallout",
+    "genre": "Action",
+    "duration": "2h 27m"
+  },
+  {
+    "title": "John Wick",
+    "genre": "Action",
+    "duration": "1h 41m"
+  },
+  {
+    "title": "Kill Bill: Vol. 2",
+    "genre": "Action",
+    "duration": "2h 17m"
+  },
+  {
+    "title": "The Raid",
+    "genre": "Action",
+    "duration": "1h 41m"
+  },
+  {
+    "title": "The Raid 2",
+    "genre": "Action",
+    "duration": "2h 30m"
+  },
+  {
+    "title": "The Handmaiden",
+    "genre": "Thriller",
+    "duration": "2h 25m"
+  },
+  {
+    "title": "Burning",
+    "genre": "Drama",
+    "duration": "2h 28m"
+  },
+  {
+    "title": "The Wailing",
+    "genre": "Thriller",
+    "duration": "2h 36m"
+  },
+  {
+    "title": "The Salesman",
+    "genre": "Drama",
+    "duration": "2h 04m"
+  },
+  {
+    "title": "The Broken Circle Breakdown",
+    "genre": "Drama",
+    "duration": "1h 51m"
+  },
+  {
+    "title": "Amour",
+    "genre": "Drama",
+    "duration": "2h 07m"
+  },
+  {
+    "title": "Roma",
+    "genre": "Drama",
+    "duration": "2h 15m"
+  },
+  {
+    "title": "Manchester by the Sea",
+    "genre": "Drama",
+    "duration": "2h 17m"
+  },
+  {
+    "title": "Moonlight",
+    "genre": "Drama",
+    "duration": "1h 51m"
+  },
+  {
+    "title": "The Florida Project",
+    "genre": "Drama",
+    "duration": "1h 51m"
+  },
+  {
+    "title": "The Banshees of Inisherin",
+    "genre": "Comedy",
+    "duration": "1h 54m"
+  },
+  {
+    "title": "Everything Everywhere All at Once",
+    "genre": "Science Fiction",
+    "duration": "2h 19m"
+  },
+  {
+    "title": "Past Lives",
+    "genre": "Romance",
+    "duration": "1h 45m"
+  },
+  {
+    "title": "The Holdovers",
+    "genre": "Comedy",
+    "duration": "2h 13m"
+  },
+  {
+    "title": "Poor Things",
+    "genre": "Science Fiction",
+    "duration": "2h 21m"
+  },
+  {
+    "title": "Anatomy of a Fall",
+    "genre": "Thriller",
+    "duration": "2h 31m"
+  },
+  {
+    "title": "The Zone of Interest",
+    "genre": "Drama",
+    "duration": "1h 45m"
+  },
+  {
+    "title": "The Substance",
+    "genre": "Science Fiction",
+    "duration": "2h 20m"
+  },
+  {
+    "title": "Challengers",
+    "genre": "Romance",
+    "duration": "2h 11m"
+  },
+  {
+    "title": "Dune",
+    "genre": "Science Fiction",
+    "duration": "2h 35m"
+  },
+  {
+    "title": "Puss in Boots: The Last Wish",
+    "genre": "Animiert",
+    "duration": "1h 42m"
+  },
+  {
+    "title": "Soul",
+    "genre": "Animiert",
+    "duration": "1h 40m"
+  },
+  {
+    "title": "Inside Out 2",
+    "genre": "Animiert",
+    "duration": "1h 36m"
+  },
+  {
+    "title": "The Mitchells vs. the Machines",
+    "genre": "Animiert",
+    "duration": "1h 54m"
+  },
+  {
+    "title": "The Lego Movie",
+    "genre": "Animiert",
+    "duration": "1h 40m"
+  },
+  {
+    "title": "How to Train Your Dragon 2",
+    "genre": "Animiert",
+    "duration": "1h 42m"
+  },
+  {
+    "title": "Toy Story 2",
+    "genre": "Animiert",
+    "duration": "1h 32m"
+  },
+  {
+    "title": "Toy Story 4",
+    "genre": "Animiert",
+    "duration": "1h 40m"
+  },
+  {
+    "title": "Monsters University",
+    "genre": "Animiert",
+    "duration": "1h 44m"
+  },
+  {
+    "title": "Kubo and the Two Strings",
+    "genre": "Animiert",
+    "duration": "1h 41m"
+  },
+  {
+    "title": "X-Men: Days of Future Past",
+    "genre": "Action",
+    "duration": "2h 12m"
+  },
+  {
+    "title": "Deadpool",
+    "genre": "Action",
+    "duration": "1h 48m"
+  },
+  {
+    "title": "Deadpool 2",
+    "genre": "Action",
+    "duration": "1h 59m"
+  },
+  {
+    "title": "The Incredibles 2",
+    "genre": "Animiert",
+    "duration": "1h 58m"
+  },
+  {
+    "title": "The Hunger Games",
+    "genre": "Action",
+    "duration": "2h 22m"
+  },
+  {
+    "title": "The Hunger Games: Catching Fire",
+    "genre": "Action",
+    "duration": "2h 26m"
+  },
+  {
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "genre": "Fantasy",
+    "duration": "2h 32m"
+  },
+  {
+    "title": "Harry Potter and the Chamber of Secrets",
+    "genre": "Fantasy",
+    "duration": "2h 41m"
+  },
+  {
+    "title": "Harry Potter and the Prisoner of Azkaban",
+    "genre": "Fantasy",
+    "duration": "2h 22m"
+  }
+]

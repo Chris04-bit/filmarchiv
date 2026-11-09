@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Filmarchiv</title>
+  <meta name="theme-color" content="#050507" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="top">
+        <div style="display:flex; align-items:center; gap:1rem;">
+         <p class="brand">Filmarchiv</p>
+         <a href="/logout" style="color:var(--muted); font-size:0.75rem; text-decoration:none; letter-spacing:0.08em; text-transform:uppercase;">Logout</a>
+        </div>
+        <div class="search-wrap">
+          <label class="sr" for="film-search">Filmtitel suchen</label>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+          <input id="film-search" type="search" placeholder="Suche" />
+          <button type="button" class="clear glow" id="clear" aria-label="Suche leeren">×</button>
+        </div>
+      </div>
+      <nav class="sections" aria-label="Abschnitte">
+        <button type="button" class="glow" id="nav-watch" aria-current="true">2 WATCH</button>
+        <button type="button" class="glow" id="nav-archiv">ARCHIV</button>
+        <button type="button" class="glow" id="nav-retro">RETRO</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <p class="sr" id="live" aria-live="polite"></p>
+    <p class="search-note panel" id="search-note" hidden></p>
+
+    <section id="watch">
+      <h1>2WATCH</h1>
+      <p class="tagline" id="watch-count"></p>
+      <div class="stack" id="watch-list"></div>
+    </section>
+
+    <section id="archiv">
+      <h1>ARCHIV</h1>
+      <div class="stack">
+        <div class="panel" id="stats"></div>
+        <div class="panel" id="view-switch">
+          <p class="view-label" id="view-label">Ansicht</p>
+          <div class="views" role="group" aria-labelledby="view-label">
+            <button type="button" class="glow" id="view-normal" aria-pressed="true">Normale Ansicht</button>
+            <button type="button" class="quiet" id="view-genre" aria-pressed="false">Genre-Ansicht</button>
+          </div>
+        </div>
+        <div id="archive-list" class="stack" style="margin-top:0"></div>
+      </div>
+    </section>
+
+    <section id="retro">
+      <h1>RETRO</h1>
+      <p class="tagline" id="retro-count"></p>
+      <div class="stack" id="retro-list"></div>
+    </section>
+  </main>
+
+
+<!-- Modal -->
+<div class="modal-overlay" id="modal">
+  <div class="modal">
+    <h2 id="modal-title">Film hinzufügen</h2>
+    
+    <div id="modal-fields"></div>
+
+    <div class="modal-actions">
+      <button type="button" class="cancel" id="modal-cancel">Abbrechen</button>
+      <button type="button" class="save" id="modal-save">Speichern</button>
+    </div>
+  </div>
+</div>
+
+  <script src="app.js"></script>
+</body>
+</html>
