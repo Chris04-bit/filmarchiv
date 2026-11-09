@@ -647,7 +647,41 @@ observer.observe(document.getElementById("retro"));
   console.warn('pack-menu Element wurde nicht gefunden');
 }
 
+async function loadPackMenu() {
+  // Kurz warten, bis render() das HTML erzeugt hat
+  await new Promise(resolve => setTimeout(resolve, 50));
+
+  const menu = document.getElementById('pack-menu');
+  if (!menu) {
+    console.warn('pack-menu Element nicht gefunden');
+    return;
+  }
+
+  try {
+    const res = await fetch('/api/packs');
+    if (!res.ok) throw new Error('API Fehler');
+    
+    const packs = await res.json();
+    console.log('Geladene Packs:', packs); // zum Debuggen
+
+    if (!packs.length) {
+      menu.innerHTML = `<p style="padding:1rem;color:var(--muted);font-size:0.85rem;">Keine Packs verfügbar</p>`;
+      return;
+    }
+
+        menu.innerHTML = packs.map(p => `
+    <button type="button" class="pack-btn" data-pack="${p.id}">
+        ${p.name}
+        ${p.description ? `<span>${p.description}</span>` : ''}
+    </button>
+    `).join('');
+  } catch (err) {
+    console.error('Fehler beim Laden der Packs:', err);
+    menu.innerHTML = `<p style="padding:1rem;color:#ff6b6b;font-size:0.85rem;">Fehler beim Laden</p>`;
+  }
+}
 
 // Start
 loadData();
 render();
+loadPackMenu(); 
