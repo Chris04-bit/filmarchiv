@@ -8,20 +8,22 @@ const RATINGS = ["10", "9", "8", "7", "6", "5", "4-0"];
 let WATCH = {};
 let ARCHIVE = [];
 let RETRO = [];
+let PACKS = [];
 
 async function loadData() {
   try {
-    const [watchRes, archiveRes, retroRes] = await Promise.all([
+    const [watchRes, archiveRes, retroRes, packsRes] = await Promise.all([
       fetch('/api/watch'),
       fetch('/api/archive'),
-      fetch('/api/retro')
+      fetch('/api/retro'),
+      fetch('/api/packs')
     ]);
 
     const watchRows = await watchRes.json();
     const archiveRows = await archiveRes.json();
     const retroRows = await retroRes.json();
+    PACKS = await packsRes.json();
 
-    // Watchlist
     WATCH = {};
     GENRES.forEach(g => WATCH[g] = []);
 
@@ -34,8 +36,8 @@ async function loadData() {
       });
     });
 
-    ARCHIVE = archiveRows;   // enthält id, title, rating, genre
-    RETRO = retroRows;       // Array von {id, title}
+    ARCHIVE = archiveRows;
+    RETRO = retroRows;
 
     render();
   } catch (err) {
@@ -158,20 +160,33 @@ function render() {
     const watchTotal = GENRES.reduce((sum, genre) => sum + (WATCH[genre] || []).length, 0);
     document.getElementById("watch-count").textContent = watchTotal + (watchTotal === 1 ? " filmabend" : " Filmabende");
 
-        // Buttons oben
+    // Pack-Dropdown HTML erzeugen
+    let packMenuHtml = '';
+    if (!PACKS.length) {
+      packMenuHtml = `<p style="padding:1rem;color:var(--muted);font-size:0.85rem;">Keine Packs verfügbar</p>`;
+    } else {
+      packMenuHtml = PACKS.map(p => `
+        <button type="button" class="pack-btn" data-pack="${p.id}">
+          ${p.name}
+          ${p.description ? `<span>${p.description}</span>` : ''}
+        </button>
+      `).join('');
+    }
+    
     let watchHtml = `
-    <button type="button" class="add-btn" data-add="watch">+ Film zur Watchlist</button>
-    <div class="pack-import" id="pack-import">
+      <button type="button" class="add-btn" data-add="watch">+ Film zur Watchlist</button>
+    
+      <div class="pack-import" id="pack-import">
         <button type="button" class="pack-toggle" id="pack-toggle">
-        Filmpaket importieren
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          Filmpaket importieren
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="6 9 12 15 18 9"></polyline>
-        </svg>
+          </svg>
         </button>
         <div class="pack-menu" id="pack-menu">
-        <p style="padding:1rem;color:var(--muted);font-size:0.85rem;">Lade Packs...</p>
+          ${packMenuHtml}
         </div>
-    </div>
+      </div>
     `;
 
   const watchGroups = GENRES.map((genre) => ({
@@ -626,33 +641,6 @@ observer.observe(document.getElementById("watch"));
 observer.observe(document.getElementById("archiv"));
 observer.observe(document.getElementById("retro"));
 
-async function loadPackMenu() {
-  // Mehrere Versuche, falls das Element noch nicht da ist
-  for (let i = 0; i < 10; i++) {
-    const menu = document.getElementById('pack-menu');
-    if (menu) {
-      try {
-        const res = await fetch('/api/packs');
-        const packs = await res.json();
-
-        if (!packs.length) {
-          menu.innerHTML = `<p style="padding:1rem;color:var(--muted);font-size:0.85rem;">Keine Packs verfügbar</p>`;
-          return;
-        }
-
-        menu.innerHTML = packs.map(p => `
-          <button type="button" class="pack-btn" data-pack="${p.id}">
-            ${p.name}
-            ${p.description ? `<span>${p.description}</span>` : ''}
-          </button>
-        `).join('');
-        return; // erfolgreich → aufhören
-      } catch (err) {
-        console.error('Fehler beim Laden der Packs:', err);
-        menu.innerHTML = `<p style="padding:1rem;color:#ff6b6b;font-size:0.85rem;">Fehler beim Laden</p>`;
-        return;
-      }
-    }
     // Element noch nicht da → kurz warten und nochmal versuchen
     await new Promise(resolve => setTimeout(resolve, 100));
   }
@@ -663,4 +651,3 @@ async function loadPackMenu() {
 // Start
 loadData();
 render();
-loadPackMenu();   // bleibt
